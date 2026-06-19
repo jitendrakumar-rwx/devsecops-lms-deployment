@@ -11,7 +11,7 @@
   Containerized Moodle LMS deployment on AWS with CI/CD, security scans, observability, and backup/restore automation.
 </p>
 
-<p align="center"> <a href="https://learn.jkpatelnx.in"><strong>Live Demo</strong></a> · <a href="https://learn.jkpatelnx.in/login/index.php"><strong>Login Page</strong></a> </p>
+<p align="center"> <a href="https://lms.jitendrakumar-rwx.in"><strong>Live Demo</strong></a> · <a href="https://lms.jitendrakumar-rwx.in/login/index.php"><strong>Login Page</strong></a> </p>
 
 ## Why This Project
 
@@ -101,8 +101,8 @@ Deployment is automatically triggered when application code is pushed to:
 
 How it works:
 
-1. A workflow in `jkpatelnx/devsecops-lms-app` runs on push to `main` (excluding docs/license-only changes).
-2. That workflow calls GitHub API `repos/jkpatelnx/devsecops-lms-deployment/dispatches`.
+1. A workflow in `jitendrakumarrwx/devsecops-lms-app` runs on push to `main` (excluding docs/license-only changes).
+2. That workflow calls GitHub API `repos/jitendrakumarrwx/devsecops-lms-deployment/dispatches`.
 3. It sends event type `lms-app-updated`.
 4. This repository receives the `repository_dispatch` event and runs the CI/CD pipeline.
 
