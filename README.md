@@ -97,7 +97,7 @@ Pipeline trigger modes currently enabled:
 
 Deployment is automatically triggered when application code is pushed to:
 
-- `jkpatelnx/devsecops-lms-app` (branch: `main`)
+- `jitendrakumar-rwx/devsecops-lms-app` (branch: `main`)
 
 How it works:
 
